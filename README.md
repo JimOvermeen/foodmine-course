@@ -1,5 +1,7 @@
 # FoodmineCourse
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/11be531a-d023-4a76-ac8d-060fdc4785ed/deploy-status)](https://app.netlify.com/sites/foodmine-jim/deploys)
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.6.
 
 ## Development server
