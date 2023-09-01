@@ -19,6 +19,9 @@ export class FoodPageComponent {
     private router: Router
   ) {
     acivatedRoute.params.subscribe((params) => {
+      console.log(foodService.getFoodById(params['id']));
+      
+      
       if (params['id']) {
         this.food = foodService.getFoodById(params['id']);
       }
