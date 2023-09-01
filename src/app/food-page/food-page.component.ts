@@ -18,10 +18,7 @@ export class FoodPageComponent {
     private cartService: CartService,
     private router: Router
   ) {
-    acivatedRoute.params.subscribe((params) => {
-      console.log(foodService.getFoodById(params['id']));
-      
-      
+    acivatedRoute.params.subscribe((params) => {      
       if (params['id']) {
         this.food = foodService.getFoodById(params['id']);
       }
